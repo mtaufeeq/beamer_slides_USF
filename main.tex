@@ -1,0 +1,222 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation
+% LaTeX Template
+% Version 1.0 (10/11/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+
+\documentclass[unknownkeysallowed]{beamer}
+
+\mode<presentation> {
+
+% The Beamer class comes with a number of default slide themes
+% which change the colors and layouts of slides. Below this is a list
+% of all the themes, uncomment each in turn to see what they look like.
+
+% \usetheme{default}
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+% \usetheme{Luebeck}
+\usetheme{Madrid}
+%\usetheme{Malmoe}
+% \usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+% As well as themes, the Beamer class has a number of color themes
+% for any slide theme. Uncomment each of these in turn to see how it
+% changes the colors of your current slide theme.
+
+%\usecolortheme{albatross}
+%\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{orchid}
+%\usecolortheme{rose}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+%\usecolortheme{whale}
+%\usecolortheme{wolverine}
+
+%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
+%\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+
+%\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+}
+
+\usepackage{graphicx, url} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage[caption=false,font=footnotesize]{subfig}
+
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts, comment, xcolor}
+% \usepackage{algorithmic}
+% \usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{multirow}
+% \usepackage{caption}
+\usepackage{balance}
+% \usepackage{array}
+% \usepackage[final]{graphicx}
+% \usepackage{subcaption}
+% \usepackage{pgfplots}
+% \usepackage{pgfplotstable}
+% \usepackage{sfmath}
+% \usepackage{lipsum}
+\usepackage{graphicx}
+
+\setbeamertemplate{caption}[numbered]
+
+% usecolortheme{beaver}
+\usepackage{textpos}
+
+% Change color
+\definecolor{USFgreen}{rgb}{0.14, 0.545, 0.14} % 0.13, 0.545, 0.13} 0.1, 0.35, 0.1
+\definecolor{USFgreen2}{RGB}{0,103,71}
+\usecolortheme[named=USFgreen2]{structure}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title[Sweet and Short Title :)]{Probably Boring Loooooooong Title :(} % The short title appears at the bottom of every slide, the full title is only on the title page
+
+% \subtitle{Facial Dynamics Learning} 
+
+\author[Doe and Doe]{Jane Doe, John Doe} % Your name
+\institute[USF] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{
+Lab / Group / Program / Course \newline 
+University of South Florida, FL, USA \\ \includegraphics[height=2cm,width=2cm]{images/USF_logo_v2.jpg} \\ % Your institution for the title page
+\medskip
+\texttt{jane.doe@mail.usf.edu, john.doe@usf.edu} % Your email address
+}
+\date[]{Conference / Venue} % Date, can be changed to a custom date
+
+\begin{document}
+
+\begin{frame}
+\titlepage % Print the title page as the first slide
+\end{frame}
+
+\addtobeamertemplate{frametitle}{}{%
+\begin{textblock*}{100mm}(.95\textwidth,-1cm)
+\includegraphics[height=1cm,width=1cm]{images/USF_logo_5.jpg}
+\end{textblock*}}
+
+
+\begin{frame}
+\frametitle{Overview} % Table of contents slide, comment this block out to remove it
+\tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+
+%------------------------------------------------
+\section{Method}
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Method}
+
+You can remove USF logo from the top right corner of the slides, Comment out line 134 to line 137. See example slides.
+
+\end{frame}
+
+
+
+
+%------------------------------------------------
+\section{Data}
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Data}
+
+
+\end{frame}
+
+
+%------------------------------------------------
+\section{Experiments and Analysis}
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Experiments}
+
+
+\end{frame}
+
+
+
+
+
+
+
+
+
+
+%------------------------------------------------
+\section{Conclusion and Discussion}
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Summary, Challenges and Future Work}
+
+
+
+\end{frame}
+
+
+
+%------------------------------------------------
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{ End }
+
+\center Thank you! \newline 
+
+\center Q\&As
+
+
+\end{frame}
+
+
+\end{document}
